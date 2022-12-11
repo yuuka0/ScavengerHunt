@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     func test() {
         
     }
-
+    @IBOutlet var testLabel: UILabel!
 
 }
 
