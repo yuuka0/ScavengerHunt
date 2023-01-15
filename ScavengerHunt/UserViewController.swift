@@ -11,7 +11,7 @@ class UserViewController: UIViewController {
     @IBOutlet var matchTimesLabel: UILabel!
     @IBOutlet var wonTimesLabel: UILabel!
     @IBOutlet var highscoreLabel: UILabel!
-
+    @IBOutlet var aiconImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +22,7 @@ class UserViewController: UIViewController {
         highscoreLabel.layer.borderColor = UIColor.black.cgColor
         highscoreLabel.layer.borderWidth = 0.5
         // Do any additional setup after loading the view.
+        aiconImageView.layer.cornerRadius = 100
     }
     
 
