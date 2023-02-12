@@ -16,6 +16,35 @@
 		CF4B4DBF2945C0DA00A203AD /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4B4DBE2945C0DA00A203AD /* File.swift */; };
 		CF4B4DC12945F0AD00A203AD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4B4DC02945F0AD00A203AD /* GameViewController.swift */; };
 		CF4B4DC32945F0EC00A203AD /* GamePinEnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4B4DC22945F0EC00A203AD /* GamePinEnterViewController.swift */; };
+		CFCE476E2972487C0025960F /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCE476D2972487C0025960F /* UserViewController.swift */; };
+		CFCE479E2973DC200025960F /* FirebaseSharedSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE47852973DC200025960F /* FirebaseSharedSwift.xcframework */; };
+		CFCE47A02973DC200025960F /* BoringSSL-GRPC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE47862973DC200025960F /* BoringSSL-GRPC.xcframework */; };
+		CFCE47A22973DC200025960F /* GoogleAppMeasurementIdentitySupport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE47872973DC200025960F /* GoogleAppMeasurementIdentitySupport.xcframework */; };
+		CFCE47A42973DC200025960F /* Libuv-gRPC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE47882973DC200025960F /* Libuv-gRPC.xcframework */; };
+		CFCE47A62973DC200025960F /* FirebaseCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE47892973DC200025960F /* FirebaseCore.xcframework */; };
+		CFCE47A82973DC200025960F /* FirebaseAppCheckInterop.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE478A2973DC200025960F /* FirebaseAppCheckInterop.xcframework */; };
+		CFCE47AA2973DC200025960F /* FirebaseFirestoreSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE478B2973DC200025960F /* FirebaseFirestoreSwift.xcframework */; };
+		CFCE47AC2973DC200025960F /* FirebaseInstallations.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE478C2973DC200025960F /* FirebaseInstallations.xcframework */; };
+		CFCE47AE2973DC200025960F /* FirebaseAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE478D2973DC200025960F /* FirebaseAnalytics.xcframework */; };
+		CFCE47B02973DC200025960F /* FirebaseAuthInterop.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE478E2973DC200025960F /* FirebaseAuthInterop.xcframework */; };
+		CFCE47B22973DC200025960F /* FirebaseCoreExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE478F2973DC200025960F /* FirebaseCoreExtension.xcframework */; };
+		CFCE47B42973DC200025960F /* FirebaseFirestore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE47902973DC200025960F /* FirebaseFirestore.xcframework */; };
+		CFCE47B62973DC200025960F /* leveldb-library.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE47912973DC200025960F /* leveldb-library.xcframework */; };
+		CFCE47B82973DC200025960F /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE47922973DC200025960F /* nanopb.xcframework */; };
+		CFCE47BA2973DC200025960F /* abseil.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE47932973DC200025960F /* abseil.xcframework */; };
+		CFCE47BC2973DC200025960F /* GTMSessionFetcher.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE47942973DC200025960F /* GTMSessionFetcher.xcframework */; };
+		CFCE47BE2973DC210025960F /* FirebaseStorage.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE47952973DC200025960F /* FirebaseStorage.xcframework */; };
+		CFCE47C02973DC210025960F /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE47962973DC200025960F /* GoogleUtilities.xcframework */; };
+		CFCE47C22973DC210025960F /* FBLPromises.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE47972973DC200025960F /* FBLPromises.xcframework */; };
+		CFCE47C42973DC210025960F /* gRPC-Core.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE47982973DC200025960F /* gRPC-Core.xcframework */; };
+		CFCE47C62973DC210025960F /* FirebaseCoreInternal.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE47992973DC200025960F /* FirebaseCoreInternal.xcframework */; };
+		CFCE47C82973DC210025960F /* gRPC-C++.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE479A2973DC200025960F /* gRPC-C++.xcframework */; };
+		CFCE47CA2973DC210025960F /* FirebaseAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE479B2973DC200025960F /* FirebaseAuth.xcframework */; };
+		CFCE47CC2973DC210025960F /* FirebaseAnalyticsSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE479C2973DC200025960F /* FirebaseAnalyticsSwift.xcframework */; };
+		CFCE47CE2973DC210025960F /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE479D2973DC200025960F /* GoogleAppMeasurement.xcframework */; };
+		CFCE47D22973E33E0025960F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFCE47D12973E33E0025960F /* GoogleService-Info.plist */; };
+		CFCE47F6298637100025960F /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCE47F5298637100025960F /* LogInViewController.swift */; };
+		CFCE47F829864A580025960F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCE47F729864A580025960F /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +59,35 @@
 		CF4B4DBE2945C0DA00A203AD /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		CF4B4DC02945F0AD00A203AD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		CF4B4DC22945F0EC00A203AD /* GamePinEnterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePinEnterViewController.swift; sourceTree = "<group>"; };
+		CFCE476D2972487C0025960F /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		CFCE47852973DC200025960F /* FirebaseSharedSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseSharedSwift.xcframework; path = Carthage/Build/FirebaseSharedSwift.xcframework; sourceTree = "<group>"; };
+		CFCE47862973DC200025960F /* BoringSSL-GRPC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "BoringSSL-GRPC.xcframework"; path = "Carthage/Build/BoringSSL-GRPC.xcframework"; sourceTree = "<group>"; };
+		CFCE47872973DC200025960F /* GoogleAppMeasurementIdentitySupport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurementIdentitySupport.xcframework; path = Carthage/Build/GoogleAppMeasurementIdentitySupport.xcframework; sourceTree = "<group>"; };
+		CFCE47882973DC200025960F /* Libuv-gRPC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "Libuv-gRPC.xcframework"; path = "Carthage/Build/Libuv-gRPC.xcframework"; sourceTree = "<group>"; };
+		CFCE47892973DC200025960F /* FirebaseCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseCore.xcframework; path = Carthage/Build/FirebaseCore.xcframework; sourceTree = "<group>"; };
+		CFCE478A2973DC200025960F /* FirebaseAppCheckInterop.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseAppCheckInterop.xcframework; path = Carthage/Build/FirebaseAppCheckInterop.xcframework; sourceTree = "<group>"; };
+		CFCE478B2973DC200025960F /* FirebaseFirestoreSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseFirestoreSwift.xcframework; path = Carthage/Build/FirebaseFirestoreSwift.xcframework; sourceTree = "<group>"; };
+		CFCE478C2973DC200025960F /* FirebaseInstallations.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseInstallations.xcframework; path = Carthage/Build/FirebaseInstallations.xcframework; sourceTree = "<group>"; };
+		CFCE478D2973DC200025960F /* FirebaseAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseAnalytics.xcframework; path = Carthage/Build/FirebaseAnalytics.xcframework; sourceTree = "<group>"; };
+		CFCE478E2973DC200025960F /* FirebaseAuthInterop.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseAuthInterop.xcframework; path = Carthage/Build/FirebaseAuthInterop.xcframework; sourceTree = "<group>"; };
+		CFCE478F2973DC200025960F /* FirebaseCoreExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseCoreExtension.xcframework; path = Carthage/Build/FirebaseCoreExtension.xcframework; sourceTree = "<group>"; };
+		CFCE47902973DC200025960F /* FirebaseFirestore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseFirestore.xcframework; path = Carthage/Build/FirebaseFirestore.xcframework; sourceTree = "<group>"; };
+		CFCE47912973DC200025960F /* leveldb-library.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "leveldb-library.xcframework"; path = "Carthage/Build/leveldb-library.xcframework"; sourceTree = "<group>"; };
+		CFCE47922973DC200025960F /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = nanopb.xcframework; path = Carthage/Build/nanopb.xcframework; sourceTree = "<group>"; };
+		CFCE47932973DC200025960F /* abseil.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = abseil.xcframework; path = Carthage/Build/abseil.xcframework; sourceTree = "<group>"; };
+		CFCE47942973DC200025960F /* GTMSessionFetcher.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GTMSessionFetcher.xcframework; path = Carthage/Build/GTMSessionFetcher.xcframework; sourceTree = "<group>"; };
+		CFCE47952973DC200025960F /* FirebaseStorage.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseStorage.xcframework; path = Carthage/Build/FirebaseStorage.xcframework; sourceTree = "<group>"; };
+		CFCE47962973DC200025960F /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleUtilities.xcframework; path = Carthage/Build/GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		CFCE47972973DC200025960F /* FBLPromises.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBLPromises.xcframework; path = Carthage/Build/FBLPromises.xcframework; sourceTree = "<group>"; };
+		CFCE47982973DC200025960F /* gRPC-Core.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gRPC-Core.xcframework"; path = "Carthage/Build/gRPC-Core.xcframework"; sourceTree = "<group>"; };
+		CFCE47992973DC200025960F /* FirebaseCoreInternal.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseCoreInternal.xcframework; path = Carthage/Build/FirebaseCoreInternal.xcframework; sourceTree = "<group>"; };
+		CFCE479A2973DC200025960F /* gRPC-C++.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "gRPC-C++.xcframework"; path = "Carthage/Build/gRPC-C++.xcframework"; sourceTree = "<group>"; };
+		CFCE479B2973DC200025960F /* FirebaseAuth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseAuth.xcframework; path = Carthage/Build/FirebaseAuth.xcframework; sourceTree = "<group>"; };
+		CFCE479C2973DC200025960F /* FirebaseAnalyticsSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FirebaseAnalyticsSwift.xcframework; path = Carthage/Build/FirebaseAnalyticsSwift.xcframework; sourceTree = "<group>"; };
+		CFCE479D2973DC200025960F /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurement.xcframework; path = Carthage/Build/GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		CFCE47D12973E33E0025960F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CFCE47F5298637100025960F /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		CFCE47F729864A580025960F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +95,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFCE47A42973DC200025960F /* Libuv-gRPC.xcframework in Frameworks */,
+				CFCE47BC2973DC200025960F /* GTMSessionFetcher.xcframework in Frameworks */,
+				CFCE479E2973DC200025960F /* FirebaseSharedSwift.xcframework in Frameworks */,
+				CFCE47CC2973DC210025960F /* FirebaseAnalyticsSwift.xcframework in Frameworks */,
+				CFCE47C82973DC210025960F /* gRPC-C++.xcframework in Frameworks */,
+				CFCE47AC2973DC200025960F /* FirebaseInstallations.xcframework in Frameworks */,
+				CFCE47A62973DC200025960F /* FirebaseCore.xcframework in Frameworks */,
+				CFCE47C02973DC210025960F /* GoogleUtilities.xcframework in Frameworks */,
+				CFCE47BE2973DC210025960F /* FirebaseStorage.xcframework in Frameworks */,
+				CFCE47B02973DC200025960F /* FirebaseAuthInterop.xcframework in Frameworks */,
+				CFCE47A22973DC200025960F /* GoogleAppMeasurementIdentitySupport.xcframework in Frameworks */,
+				CFCE47CE2973DC210025960F /* GoogleAppMeasurement.xcframework in Frameworks */,
+				CFCE47AE2973DC200025960F /* FirebaseAnalytics.xcframework in Frameworks */,
+				CFCE47A02973DC200025960F /* BoringSSL-GRPC.xcframework in Frameworks */,
+				CFCE47B42973DC200025960F /* FirebaseFirestore.xcframework in Frameworks */,
+				CFCE47B62973DC200025960F /* leveldb-library.xcframework in Frameworks */,
+				CFCE47CA2973DC210025960F /* FirebaseAuth.xcframework in Frameworks */,
+				CFCE47B22973DC200025960F /* FirebaseCoreExtension.xcframework in Frameworks */,
+				CFCE47C42973DC210025960F /* gRPC-Core.xcframework in Frameworks */,
+				CFCE47AA2973DC200025960F /* FirebaseFirestoreSwift.xcframework in Frameworks */,
+				CFCE47A82973DC200025960F /* FirebaseAppCheckInterop.xcframework in Frameworks */,
+				CFCE47C22973DC210025960F /* FBLPromises.xcframework in Frameworks */,
+				CFCE47B82973DC200025960F /* nanopb.xcframework in Frameworks */,
+				CFCE47BA2973DC200025960F /* abseil.xcframework in Frameworks */,
+				CFCE47C62973DC210025960F /* FirebaseCoreInternal.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +131,7 @@
 			children = (
 				CF4B4DA929459DA000A203AD /* ScavengerHunt */,
 				CF4B4DA829459DA000A203AD /* Products */,
+				CFCE47842973DC200025960F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,13 +151,49 @@
 				CF4B4DAE29459DA000A203AD /* ViewController.swift */,
 				CF4B4DC02945F0AD00A203AD /* GameViewController.swift */,
 				CF4B4DC22945F0EC00A203AD /* GamePinEnterViewController.swift */,
+				CFCE476D2972487C0025960F /* UserViewController.swift */,
+				CFCE47F5298637100025960F /* LogInViewController.swift */,
 				CF4B4DBE2945C0DA00A203AD /* File.swift */,
+				CFCE47F729864A580025960F /* TabBarController.swift */,
 				CF4B4DB029459DA000A203AD /* Main.storyboard */,
 				CF4B4DB329459DA100A203AD /* Assets.xcassets */,
 				CF4B4DB529459DA100A203AD /* LaunchScreen.storyboard */,
 				CF4B4DB829459DA100A203AD /* Info.plist */,
+				CFCE47D12973E33E0025960F /* GoogleService-Info.plist */,
 			);
 			path = ScavengerHunt;
+			sourceTree = "<group>";
+		};
+		CFCE47842973DC200025960F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFCE47932973DC200025960F /* abseil.xcframework */,
+				CFCE47862973DC200025960F /* BoringSSL-GRPC.xcframework */,
+				CFCE47972973DC200025960F /* FBLPromises.xcframework */,
+				CFCE478D2973DC200025960F /* FirebaseAnalytics.xcframework */,
+				CFCE479C2973DC200025960F /* FirebaseAnalyticsSwift.xcframework */,
+				CFCE478A2973DC200025960F /* FirebaseAppCheckInterop.xcframework */,
+				CFCE479B2973DC200025960F /* FirebaseAuth.xcframework */,
+				CFCE478E2973DC200025960F /* FirebaseAuthInterop.xcframework */,
+				CFCE47892973DC200025960F /* FirebaseCore.xcframework */,
+				CFCE478F2973DC200025960F /* FirebaseCoreExtension.xcframework */,
+				CFCE47992973DC200025960F /* FirebaseCoreInternal.xcframework */,
+				CFCE47902973DC200025960F /* FirebaseFirestore.xcframework */,
+				CFCE478B2973DC200025960F /* FirebaseFirestoreSwift.xcframework */,
+				CFCE478C2973DC200025960F /* FirebaseInstallations.xcframework */,
+				CFCE47852973DC200025960F /* FirebaseSharedSwift.xcframework */,
+				CFCE47952973DC200025960F /* FirebaseStorage.xcframework */,
+				CFCE479D2973DC200025960F /* GoogleAppMeasurement.xcframework */,
+				CFCE47872973DC200025960F /* GoogleAppMeasurementIdentitySupport.xcframework */,
+				CFCE47962973DC200025960F /* GoogleUtilities.xcframework */,
+				CFCE479A2973DC200025960F /* gRPC-C++.xcframework */,
+				CFCE47982973DC200025960F /* gRPC-Core.xcframework */,
+				CFCE47942973DC200025960F /* GTMSessionFetcher.xcframework */,
+				CFCE47912973DC200025960F /* leveldb-library.xcframework */,
+				CFCE47882973DC200025960F /* Libuv-gRPC.xcframework */,
+				CFCE47922973DC200025960F /* nanopb.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +256,7 @@
 			files = (
 				CF4B4DB729459DA100A203AD /* LaunchScreen.storyboard in Resources */,
 				CF4B4DB429459DA100A203AD /* Assets.xcassets in Resources */,
+				CFCE47D22973E33E0025960F /* GoogleService-Info.plist in Resources */,
 				CF4B4DB229459DA000A203AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFCE476E2972487C0025960F /* UserViewController.swift in Sources */,
 				CF4B4DC32945F0EC00A203AD /* GamePinEnterViewController.swift in Sources */,
 				CF4B4DC12945F0AD00A203AD /* GameViewController.swift in Sources */,
+				CFCE47F829864A580025960F /* TabBarController.swift in Sources */,
 				CF4B4DAF29459DA000A203AD /* ViewController.swift in Sources */,
+				CFCE47F6298637100025960F /* LogInViewController.swift in Sources */,
 				CF4B4DBF2945C0DA00A203AD /* File.swift in Sources */,
 				CF4B4DAB29459DA000A203AD /* AppDelegate.swift in Sources */,
 				CF4B4DAD29459DA000A203AD /* SceneDelegate.swift in Sources */,
@@ -301,6 +425,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScavengerHunt/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "写真を取るためにカメラ起動する";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -311,6 +436,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.tanahashi.yui.ScavengerHunt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -328,6 +457,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScavengerHunt/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "写真を取るためにカメラ起動する";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -338,6 +468,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.tanahashi.yui.ScavengerHunt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

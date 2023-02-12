@@ -23,6 +23,8 @@ class UserViewController: UIViewController {
         highscoreLabel.layer.borderWidth = 0.5
         // Do any additional setup after loading the view.
         aiconImageView.layer.cornerRadius = 100
+        aiconImageView.layer.borderWidth = 10
+        aiconImageView.layer.borderColor = UIColor.white.cgColor
     }
     
 

@@ -6,16 +6,22 @@
 //
 
 import UIKit
-
+import FirebaseFirestoreSwift
+import FirebaseFirestore
 class GamePinEnterViewController: UIViewController {
-
+    @IBOutlet var gamePinTextField: UITextField!
+  //  var gamePin = 0
+    let firestore = Firestore.firestore()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     @IBAction func enterButton(){
+   //     gamePinTextField.text = String(gamePin)
         
+        firestore.collection("gamePins").document("share").setData(["gamePin":gamePinTextField.text])
     }
     
     @IBAction func newGameButton(){
