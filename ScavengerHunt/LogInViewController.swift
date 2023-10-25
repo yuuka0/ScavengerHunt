@@ -7,30 +7,40 @@
 
 import UIKit
 import FirebaseAuth
+import FirebaseFirestore
 
 class LogInViewController: UIViewController {
-
+    
     @IBOutlet var mailAddressTextField: UITextField!
     
     @IBOutlet var passwordTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
     @IBAction func registerButton(){
         if let mail = mailAddressTextField.text, let pass = passwordTextField.text{
             Auth.auth().createUser(withEmail:  mail, password: pass) { result, error in
-               //エラーがあるとき
+                //エラーがあるとき
                 if let error = error {
-               //エラーをプリントする
+                    //エラーをプリントする
                     print(error.localizedDescription)
-               //違うとき
+                    //違うとき
                 } else {
-                //画面遷移する
-                    self.dismiss(animated: true, completion: nil)
+                    print(result?.user.uid)
+                    if let uid = result?.user.uid {
+                        let user = User(name: "未設定", userId: uid)
+                        guard let encodedUser = try? Firestore.Encoder().encode(user) else{ return }
+                       //コレクションのusersの中にドキュメントを作る
+                        Firestore.firestore().collection("users").document(uid).setData(encodedUser)
+                        //画面遷移する
+                        self.dismiss(animated: true, completion: nil)
+                    }
+                    
+                    
                 }
                 
             }
@@ -39,22 +49,27 @@ class LogInViewController: UIViewController {
     }
     
     @IBAction func signInButton(){
-        if let mail = mailAddressTextField.text, let pass = passwordTextField.text{
-            Auth.auth().signIn(withEmail: mail, password: pass)
+        if let mail = mailAddressTextField.text, let pass = passwordTextField.text {
+            Auth.auth().signIn(withEmail: mail, password: pass) { result,error in
+                if let error = error{
+                    //エラー（どんなエラーなのか説明）
+                    print(error.localizedDescription)
+                }else{
+                    self.dismiss(animated: true, completion: nil)
+                }
+            }
+        }
     }
-        self.dismiss(animated:true, completion: nil)
-    }
-
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
 
 // = は左に右の値を代入する
@@ -63,26 +78,26 @@ class LogInViewController: UIViewController {
 //let = 定数
 
 /*
-
-//force unwrap (あんま使わない)
-Auth.auth().createUser(withEmail:  mailAddressTextField.text!, password: passwordTextField.text!)
-
-//if let
-if let mail = mailAddressTextField.text, let pass = passwordTextField.text {
-    Auth.auth().createUser(withEmail:  mail, password: pass)
-} else {
-    print("どっちかがnil")
-}
-
-//guard let
-guard let mail = mailAddressTextField.text, let pass = passwordTextField.text else {
-    print("どっちかがnil")
-    return
-}
-Auth.auth().createUser(withEmail:  mail, password: pass)
-
-
-//??
-Auth.auth().createUser(withEmail:  mailAddressTextField.text ?? "", password: passwordTextField.text ?? "")
-
-*/
+ 
+ //force unwrap (あんま使わない)
+ Auth.auth().createUser(withEmail:  mailAddressTextField.text!, password: passwordTextField.text!)
+ 
+ //if let
+ if let mail = mailAddressTextField.text, let pass = passwordTextField.text {
+ Auth.auth().createUser(withEmail:  mail, password: pass)
+ } else {
+ print("どっちかがnil")
+ }
+ 
+ //guard let
+ guard let mail = mailAddressTextField.text, let pass = passwordTextField.text else {
+ print("どっちかがnil")
+ return
+ }
+ Auth.auth().createUser(withEmail:  mail, password: pass)
+ 
+ 
+ //??
+ Auth.auth().createUser(withEmail:  mailAddressTextField.text ?? "", password: passwordTextField.text ?? "")
+ 
+ */

@@ -13,7 +13,7 @@ class TabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        try! Auth.auth().signOut()
+//       try! Auth.auth().signOut() //使わない
         // Do any additional setup after loading the view.
     
        // if Auth.auth().currentUser == nil{

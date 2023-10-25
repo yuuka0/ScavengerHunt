@@ -9,9 +9,11 @@ import UIKit
 
 class GameViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     
+    let player1 = User(name: "asdf", userId: "asdfadfa")
+    let player2 = User(name: "asdf", userId: "asdfadfa")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Do any additional setup after loading the view.
     }
     @IBAction func takePictureButton(){
